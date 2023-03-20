@@ -9,7 +9,7 @@
 ## 🔖 Layout
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/111329429/226245326-58319d51-f221-46c5-a338-757d1981cef4.mp4">
+  <video src="https://user-images.githubusercontent.com/111329429/226245326-58319d51-f221-46c5-a338-757d1981cef4.mp4">
 </p>
 
 ## 🚀 Tecnologias
