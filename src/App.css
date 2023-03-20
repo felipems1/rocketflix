@@ -1,0 +1,117 @@
+.App {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  margin-top: 3rem;
+  width: 5rem;
+  height: 4rem;
+}
+
+.title {
+  color: #fffcf9;
+  letter-spacing: 1px;
+}
+
+.movie {
+  margin-top: 0.9rem;
+  display: flex;
+  align-items: center;
+  width: 50%;
+
+  opacity: 0;
+  animation: appear 2s forwards;
+}
+
+.movie img {
+  width: 30%;
+  margin-right: 1rem;
+}
+
+.info h3 {
+  color: #fffcf9;
+  letter-spacing: 1px;
+}
+
+.info span {
+  color: #b3b3b3;
+}
+
+.button {
+  margin-top: 0.9rem;
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: bold;
+  align-items: center;
+  width: 15%;
+  padding: 8px;
+  border: 0;
+  border-radius: 10px;
+  background-color: #e9e6e3;
+  cursor: pointer;
+  color: #000;
+}
+
+.button img {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.description {
+  margin-top: 0.9rem;
+  color: #b3b3b3;
+  line-height: 150%;
+  text-align: center;
+}
+
+@keyframes appear {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 900px) {
+  .button {
+    width: 40%;
+  }
+}
+
+@media (max-width: 500px) {
+  .App {
+    padding: 0.9rem 0;
+  }
+
+  .logo {
+    margin-top: 2rem;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .movie {
+    flex-direction: column;
+    text-align: center;
+    width: 90%;
+  }
+
+  .info h3 {
+    margin-top: 0.5rem;
+  }
+
+  .info span {
+    font-size: 1rem;
+  }
+}
