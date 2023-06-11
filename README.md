@@ -1,7 +1,7 @@
 <h1 align="center">RocketFlix</h1>
 
 <h3 align="center">
- O Website RocketFlix é uma plataforma interativa que fornece sugestões de filmes aleatórios.
+ O Website RocketFlix é uma plataforma interativa que fornece sugestões de filmes.
 </h3> <br/>
 
 <div align="center">
